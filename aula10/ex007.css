@@ -1,0 +1,24 @@
+.soma{
+    background-color: rgb(0, 68, 68);
+    height: 20rem;
+    width: 30rem;
+    margin-left: 15%;
+}
+h1{
+    color: aliceblue;
+    font-size: 4rem;
+    text-align: center;
+}
+#res{
+    color: aliceblue;
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-align: center;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    align-items: center;
+    margin-left: 34%;
+}
