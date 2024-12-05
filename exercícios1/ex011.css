@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(143, 214, 249);
+    font: normal 15pt Arial;
+}
+header{
+    color: rgb(29, 29, 29);
+    text-align: center;
+}
+section{
+    padding: 15px;
+    margin: auto;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.533);
+    border: none;
+    background-color: rgba(255, 255, 255, 0.782);
+    text-align: center;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+#img{
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 2rem;
+}
+#desejo{
+    font-size: 20px;
+    color: rgb(69, 69, 69);
+}
+#msg{
+    font-size: 30px;
+    margin-top: 2rem;
+    color: rgb(69, 69, 69);
+}
