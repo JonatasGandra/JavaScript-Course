@@ -8,11 +8,11 @@ function carregar(){
     var hora = new Date()
     var agora = hora.getHours()
     msg.innerHTML = (`Agora são ${agora}h`) 
-    if(agora >= 0 && agora<=12){
+    if(agora >= 0 && agora<12){
         img.src = 'fotomanha.png'
         body.style.background = 'rgba(255, 238, 0, 0.782)'
         d.innerHTML = ('Bom dia!')
-    }else if(agora >12 && agora<=18){
+    }else if(agora >12 && agora<18){
         img.src = 'fototarde.png'
         body.style.background = 'rgba(255, 157, 0, 0.782)'
         d.innerHTML = ('Boa tarde!')
