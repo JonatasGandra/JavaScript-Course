@@ -1,7 +1,7 @@
 var agora = new Date()
 var diasem = agora.getDay()
 
-switch(diasem){
+switch (diasem) {
     case 0:
         console.log('hoje é domingo')
         break
@@ -21,11 +21,11 @@ switch(diasem){
     case 4:
         console.log('hoje é quinta')
         break
-    
+
     case 5:
         console.log('hoje é sexta')
         break
-        
+
     case 6:
         console.log('hoje é sábado')
         break

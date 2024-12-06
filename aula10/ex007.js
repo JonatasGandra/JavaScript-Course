@@ -1,7 +1,7 @@
 var soma = window.document.querySelector('#somar')
 soma.addEventListener('click', somar)
 
-function somar(){
+function somar() {
     var tn1 = window.document.querySelector('#txtn1')
     var tn2 = window.document.querySelector('#txtn2')
     var n1 = Number(tn1.value)
