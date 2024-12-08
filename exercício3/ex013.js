@@ -12,6 +12,9 @@ function contar(){
     var res = window.document.querySelector('#res')
     res.innerHTML = ''
     
+    if(p==0){
+        p+=1
+    }
     if(i<f){
         for(i; i<=f; i+=p){  
             res.innerHTML += (`${i} -> `)
