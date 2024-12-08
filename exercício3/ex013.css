@@ -1,5 +1,6 @@
 body{
     font: normal 15pt Arial;
+    background-color: rgb(123, 179, 253);
 }
 header{
     color: rgb(29, 29, 29);
@@ -12,24 +13,17 @@ section{
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.533);
     border: none;
-    background-color: rgba(255, 255, 255, 0.782);
-    text-align: center;
+    background-color: rgba(36, 106, 236, 0.782);
+    
 }
 
 footer{
-    color: white;
+    color: rgb(39, 39, 39);
     text-align: center;
     font-style: italic;
 }
-#img{
-  border-radius: 50%;
-  width: 250px;
-  height: 250px;
-  overflow: hidden;
-  position: relative;
-  margin-top: 2rem;
-}
-#desejo{
+
+#res{
     font-size: 20px;
     color: rgb(69, 69, 69);
 }
@@ -37,4 +31,16 @@ footer{
     font-size: 30px;
     margin-top: 2rem;
     color: rgb(69, 69, 69);
+    text-align: center;
+}
+#inputs{
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    gap: 1rem;
+    margin-top: 1rem;
+    
+}
+#contar{
+    margin-top: 16px;
 }
