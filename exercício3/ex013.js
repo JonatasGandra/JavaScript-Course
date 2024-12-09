@@ -12,7 +12,10 @@ function contar(){
     var res = window.document.querySelector('#res')
     res.innerHTML = ''
     
-    if(p==0){
+    if(is.value.length == 0 || fs.value.length == 0 || ps.value.length == 0){
+        window.alert('faltam dados. escrevam-os')
+        return
+    }else if(p==0){
         p+=1
     }
     if(i<f){

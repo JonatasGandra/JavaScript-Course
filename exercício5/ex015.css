@@ -1,0 +1,52 @@
+body{
+    font: normal 15pt Arial;
+    background-color: rgb(123, 179, 253);
+}
+header{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+section{
+    padding: 15px;
+    margin: auto;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.533);
+    border: none;
+    background-color: rgba(36, 106, 236, 0.782);
+    
+}
+
+footer{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-style: italic;
+}
+
+#res{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 1rem;
+}
+#inputs{
+    margin-top: 1rem;
+}
+#ntxt{
+    width: 15rem;
+    height: 2rem;
+    border-radius: 10px;
+}
+#contar{
+    height: 2.25rem;
+    border-radius: 10px;
+}
+#numeros{
+    margin-top: 2rem;
+    width: 16rem;
+}
+#op{
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
