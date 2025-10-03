@@ -1,5 +1,5 @@
 
-# JavaScript Course
+# JavaScript
 
 <img src="imgjs.png" align="right" style="width:100px; height:100px" />
 
