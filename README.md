@@ -6,8 +6,7 @@
 <div style="display:flex; gap:2rem; align-items: center;">
 
 <div>
-Here I will document my progress during a JavaScript <p>
-course I am taking on the "Curso em Vídeo" platform.
+  Aqui está documentado o meu progresso no curso de JavaScript
 </div>
 </div>
 
